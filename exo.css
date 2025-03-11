@@ -1,79 +1,80 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
+/* Titre centré */
+.title {
+  text-align: center;
+  margin-top: 40px;
 }
 
-body {
-    font-family: Arial, sans-serif;
+/* Espacement du formulaire */
+.search-form-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
 }
 
-
-header {
-    height: 109vh; 
-    width: 100%;
-    background-image: url(julia-solonina-Csja8O0sbOw-unsplash\ 1.png);
-    background-size: cover;
-    background-position: center;
-    overflow: auto; 
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-end;
 }
 
+/* Style des groupes */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  min-width: 160px;
+  font-size: 14px;
+}
 
+/* Inputs et selects */
+.form-group input,
+.form-group select {
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Bouton recherche */
+.search-button {
+  background-color: #f79c00;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #e08900;
+}
+
+/* Navbar fix simple */
 .navbar {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 0 20px;
-}
-
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    height: 50px; 
-}
-
-
-.nav-link {
-    display: flex;
-    align-items: center; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #fff;
 }
 
 .nav-link ul {
-    display: flex;
-    align-items: center; 
-    margin: 0;
-    padding: 0;
-}
-
-.nav-link li {
-    margin: 0 15px; 
+  list-style: none;
+  display: flex;
+  gap: 15px;
 }
 
 .nav-link a {
-    color: black;
-    font-size: 16px;
-    color: white;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
 }
-
-.nav-link select {
-    margin-left: 15px; 
-    padding: 5px;
-    color: #fff; 
-    background-color: transparent;
-    
-    font-size: 16px; 
-}
-
 
 .sign-up {
-    background-color: #ff9500; 
-    border-radius:90px;
-    padding: 10px 20px;
+  padding: 8px 14px;
+  background-color: #f79c00;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
 }
-
