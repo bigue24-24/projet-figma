@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    height: 109vh; 
+    width: 100%;
+    background-image: url(julia-solonina-Csja8O0sbOw-unsplash\ 1.png);
+    background-size: cover;
+    background-position: center;
+    overflow: auto; 
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; 
+}
+
+
+.nav-link {
+    display: flex;
+    align-items: center; 
+}
+
+.nav-link ul {
+    display: flex;
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link li {
+    margin: 0 15px; 
+}
+
+.nav-link a {
+    color: black;
+    font-size: 16px;
+    color: white;
+}
+
+.nav-link select {
+    margin-left: 15px; 
+    padding: 5px;
+    color: #fff; 
+    background-color: transparent;
+    
+    font-size: 16px; 
+}
+
+
+.sign-up {
+    background-color: #ff9500; 
+    border-radius:90px;
+    padding: 10px 20px;
+}
+
