@@ -1,235 +1,241 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-}
-
-
-header {
-    height: 109vh; 
-    width: 100%;
-    background-image: url(julia-solonina-Csja8O0sbOw-unsplash\ 1.png);
-    background-size: cover;
-    background-position: center;
-    overflow: auto; 
-}
-
-
-.navbar {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 0 20px;
-}
-
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    height: 50px; 
-}
-
-
-.nav-link {
-    display: flex;
-    align-items: center; 
-}
-
-.nav-link ul {
-    display: flex;
-    align-items: center; 
-    margin: 0;
-    padding: 0;
-}
-
-.nav-link li {
-    margin: 0 15px; 
-}
-
-.nav-link a {
-    color: black;
-    font-size: 16px;
-    color: white;
-}
-
-.nav-link select {
-    margin-left: 15px; 
-    padding: 5px;
-    color: #fff; 
-    background-color: transparent;
-    
-    font-size: 16px; 
-}
-
-
-.sign-up {
-    background-color: #ff9500; 
-    border-radius:90px;
-    padding: 10px 20px;
-}
-.title{
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-
-}
-
-.title h1{
-    color: #fff;
-    font-size: 70px;
-    font-family: "Dancing Script";
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  
-  }
-    
-.title h2{
-    color: #fff;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-indent: 60px;
-    margin-bottom: 1px;
-
-}
-
-select {
-    border: none;
-    outline: none; 
-}
-
-select option[value="eng"] {
-    opacity: 0.7; 
-    filter: blur(1px); 
-    color: rgb(120, 122, 123);
-}
-
-.tour-search {
-    max-width: 1000px;
-    margin: auto;
-  }
-
-  .tour-search .title {
-    color: #f79c00;
-    font-weight: bold;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-  }
-
+.bg-navbar{
+  background-image: url("julia-solonina-Csja8O0sbOw-unsplash\ 1.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 109vh;
+  width: 100%;
   
   
+ 
+  
+}
+
+.bg-box-milieu {
+  border-radius: 5px;
+  padding: 3.5rem; 
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.2)
+  );
+  width: 100%; 
+  max-width: 400px; 
+  height: 100px; 
+  margin: 0 auto; 
+  overflow: hidden; 
+}
+
+
+ .tour-search {
+  max-width: 100%;
+  margin: auto;
+}
+
+.tour-search .title {
+  color: #f79c00;
+  font-weight: bold;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+
+
 .search-form {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 60px; 
-    
-  }
-  
 
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    min-width: 160px;
-    font-size: 14px;
-  }
+  flex-wrap: wrap;
   
-
-  .form-group input,
-  .form-group select {
-    padding: 8px 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  
-  }
-  
-
-  .search-button {
-    background-color: #f79c00;
-    color: white;
-    border: none;
-    padding: 10px 16px;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-top: 25px;
-  }
-  
-  .search-button:hover {
-    background-color: #e08900;
-  }
-  
-  
-  .title {
-    text-align: center;
-    margin-top: 40px;
-  }
-  .search-form {
-    display: flex; 
-    gap: 10px;
-    flex-wrap: nowrap; 
-    align-items: center; 
-    background: #fff;
-    padding: 10px 15px;  
-    border-radius: 8px;
-    margin: 50px;  
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    position: relative;
+  justify-content: center;
+  display: flex;
+  gap: 100px;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
 .form-group {
-    display: flex;
-    flex-direction: column;
-    min-width: 160px;
-    font-size: 14px;
-  }
-  
-  
-  .form-group input,
-  .form-group select {
-    padding: 8px 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+  font-size: 0px;
+
+}
+
+
+.form-group input,
+.form-group select {
+  padding: 50% 50%;
+  border-radius: 5px;
+  border: 1px solid #d6d60f;
+}
+
 
 .search-button {
-    background-color: #f79c00;
-    color: white;
-    padding: 8px 12px;
-    cursor: pointer;
-    font-size: 14px;
-    height: 38px;
-    margin-top: 20px;
+  background-color: #f39805;
+  color: white;
+  border: none;
+  padding: 40px 70px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 75px;
+  
 }
 
 .search-button:hover {
-    background-color: #e08900;
+  background-color: #e9e907;
 }
+
+
+.title {
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  min-width: 120px;
+  font-size: 14px;
+  color: black;
+  
+
+}
+.form-group input,
+.form-group select {
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-button {
+  background-color: #f79c00;
+  color: white;
+  padding: 6px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.search-button:hover {
+  background-color: #f3f3f3;
+}
+
 .form-title {
-    width: 5em;
-    text-align: left;
-    font-weight: bold;
-    color: #fefefc;
-    font-size: 18px;
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-  .active{
-    margin
-  }
+  width: 10%;
+  text-align: left;
+  font-weight: bold;
+  color: #fefefc;
+  font-size: 18px;
+  margin-bottom: 10%;
+  display: flex;
+  align-items: center;
+  gap: px;
+} 
+
+
+
+
+
+
+.login-button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 0px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: darkorange; 
+}
+.tab-conten{
+  margin-right: 8%;
+  padding: 10px;
+}
+.card-title {
+  margin-top: 10px; 
+}
+.distance-elemen{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+  
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+.container{
+  margin-top: 10%;
+  margin-bottom: 10%;
+ 
+}
+.offer-banner {
+  background-image: url(Rectangle\ 51\ \(1\).png);
+/* overflow: hidden; */
+}
+
+.offer-banner {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  z-index: 1;
+
+}
+
+.offer-text-box {
+  flex: 1; 
+  text-align: left; 
+  padding-right: 20px; 
+  background-color: rgba(247, 225, 201, 0.7);
+  border-radius: 15px;
+  margin: 0 auto;
+  position: relative; 
+  padding: 20px;
+  width: 80%; 
+
+}
+
+
+.button{
+  background-color: #f79c00;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin: 15;
+}
+.card{
+  margin-top: 35%;
+  margin-bottom: 35%;
+ 
+}
+.icon-text {
+  display: inline-flex;
+  align-items: center;
+
+}
+
+.number {
+  color: orange; 
+  margin-left: 2px; 
+  font-size: 10px;
+}
+.sorie{
+  position: relative;
+  top: -150px;
+  height:60vh;
+ 
+  
+
+  
+}

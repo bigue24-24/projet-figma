@@ -1,0 +1,233 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    height: 109vh; 
+    width: 100%;
+    background-image: url(julia-solonina-Csja8O0sbOw-unsplash\ 1.png);
+    background-size: cover;
+    background-position: center;
+    overflow: auto; 
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; 
+}
+
+
+.nav-link {
+    display: flex;
+    align-items: center; 
+}
+
+.nav-link ul {
+    display: flex;
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link li {
+    margin: 0 15px; 
+}
+
+.nav-link a {
+    color: black;
+    font-size: 16px;
+    color: white;
+}
+
+.nav-link select {
+    margin-left: 15px; 
+    padding: 5px;
+    color: #fff; 
+    background-color: transparent;
+    
+    font-size: 16px; 
+}
+
+
+.sign-up {
+    background-color: #ff9500; 
+    border-radius:90px;
+    padding: 10px 20px;
+}
+.title{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+    font-family: "Dancing Script";
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
+  }
+    
+.title h2{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Dancing";
+    text-indent: 60px;
+    margin-bottom: 1px;
+
+}
+
+select {
+    border: none;
+    outline: none; 
+}
+
+select option[value="eng"] {
+    opacity: 0.7; 
+    filter: blur(1px); 
+    color: rgb(120, 122, 123);
+}
+
+.tour-search {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .tour-search .title {
+    color: #f79c00;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+
+  
+  
+.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 60px; 
+    
+  }
+  
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+    font-size: 14px;
+  }
+  
+
+  .form-group input,
+  .form-group select {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  
+  }
+  
+
+  .search-button {
+    background-color: #f79c00;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 25px;
+  }
+  
+  .search-button:hover {
+    background-color: #e08900;
+  }
+  
+  
+  .title {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .search-form {
+    display: flex; 
+    gap: 10px;
+    flex-wrap: nowrap; 
+    align-items: center; 
+    background: #fff;
+    padding: 10px 15px;  
+    border-radius: 8px;
+    margin: 50px;  
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+    font-size: 14px;
+  }
+  
+  
+  .form-group input,
+  .form-group select {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+.search-button {
+    background-color: #f79c00;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 38px;
+    margin-top: 20px;
+}
+
+.search-button:hover {
+    background-color: #e08900;
+}
+.form-title {
+    width: 5em;
+    text-align: left;
+    font-weight: bold;
+    color: #fefefc;
+    font-size: 18px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  

@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.arriereplan {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+    background-image: url("./image/image1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 100px;
+}
+
+#image {
+    width: 100px;
+    height: 100px;
+}
+
+.index3 {
+    border-bottom: 1px solid orange;
+}
+
+.container div.index {
+    display: flex;
+    gap: 40px;
+    font-size: 150%;
+}
+
+.index1 {
+    display: flex;
+    gap: 20px;
+}
+
+.SigneUp {
+    background-color: orange;
+    padding: 10px;
+}
+
+.index2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
+}
+
+.horizontal-words {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section h1 {
+    font-family: "Emblema One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.section p {
+    font-size: 30px;
+}
+
+.content {
+    text-decoration: none;
+    color: orange;
+    width: auto; 
+    
+    
+
+}
+.fa-earth-asia {
+  float: left;
+  margin-left: 20px; /* Ajustez la marge selon vos besoins */
+}
+
+/* Modern Filled Tabs */
+.modern-tabs {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08);
+}
+
+.modern-tabs .nav-tabs {
+    border: none;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.modern-tabs .nav-link {
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    color: #6c757d;
+    transition: all 0.3s ease;
+}
+
+.modern-tabs .nav-link:hover {
+    background: #f8f9fa;
+    color: #0d6efd;
+}
+
+.modern-tabs .nav-link.active {
+    background: #0d6efd;
+    color: white;
+  
+}
+
+/* Content Animation */
+.tab-pane.fade {
+    transition: all 0.2s ease-out;
+}
+
+.tab-pane.fade.show {
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.tour-search {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.tour-search .title {
+    color: #f79c00;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+    font-size: 20px;
+
+}
+
+.form-group input,
+.form-group select {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #d6d60f;
+}
+
+.search-button {
+    background-color: #f39805;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 25px;
+    
+}
+
+.search-button:hover {
+    background-color: #e9e907;
+}
+
+.title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+    font-size: 14px;
+    color: black;
+    
+
+}
+
+.form-group input,
+.form-group select {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-button {
+    background-color: #f79c00;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 38px;
+    margin-top: 20px;
+}
+
+.search-button:hover {
+    background-color: #f3f3f3;
+}
+
+.form-title {
+    width: 5em;
+    text-align: left;
+    font-weight: bold;
+    color: #fefefc;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.active {
+    margin: 0;
+}
+
+.index {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-content{
+    background: rgba(255, 255, 255,0.5);
+
+}
+h2{
+    
+}
+
+.index5 img{
+    width: 1350px;
+    height: 500px;
+}
+
+.container11 {
+    display: flex;
+    justify-content: space-between; /* ou space-around selon vos besoins */
+  }
+  
+  .container img {
+    max-width: 10%; /* Ajustez la taille selon vos besoins */
+    height: auto;
+}
